@@ -15,7 +15,7 @@ var createJadePreprocessor = function(logger, basePath) {
         var jadeOptions = {
             filename: file.originalPath,
             client: true,
-            pretty: true
+            //pretty: true
         };
         processed = jade.render(content, jadeOptions);    
     } catch (e) {
